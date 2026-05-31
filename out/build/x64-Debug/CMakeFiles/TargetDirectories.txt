@@ -1,0 +1,4 @@
+C:/N8RO/ilker-submission/out/build/x64-Debug/CMakeFiles/student_character_plugin.dir
+C:/N8RO/ilker-submission/out/build/x64-Debug/CMakeFiles/standalone_test.dir
+C:/N8RO/ilker-submission/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/N8RO/ilker-submission/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

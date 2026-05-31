@@ -9,6 +9,9 @@ endif()
 
 add_library(student_character_plugin SHARED
     src/StudentController.cpp
+    src/AnimationSampler.h
+    src/PIPDController.h
+    src/PhysicsEngine.h
 )
 
 target_include_directories(student_character_plugin PRIVATE
@@ -18,4 +21,13 @@ target_include_directories(student_character_plugin PRIVATE
 set_target_properties(student_character_plugin PROPERTIES
     OUTPUT_NAME "character_plugin_ilker"
     PREFIX ""
+)
+
+add_executable(standalone_test
+    tests/standalone_test.cpp
+    src/StudentController.cpp
+)
+
+target_include_directories(standalone_test PRIVATE
+    ${ARKHEON_CHAR_SDK_DIR}/include
 )
